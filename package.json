@@ -1,0 +1,27 @@
+{
+  "name": "crm-alfa-automatic",
+  "version": "0.0.18",
+  "main": "server.js",
+  "repository": "https://github.com/taruuuch/crm-alfa-automatic.git",
+  "author": "Dmytro Artemchuk <taruuuch@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "client": "yarn --cwd client start",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
