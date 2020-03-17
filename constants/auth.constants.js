@@ -1,0 +1,8 @@
+exports.AUTH_ERROR = 'Something went wrong, try again'
+exports.USER_EXIST = 'This user already exists'
+exports.EMAIL_CHECK = 'Invalid email'
+exports.PASSWORD_LENGTH = 'Minimum password length 6 characters'
+exports.INVALID_PASSWORD = 'Invalid password, try again'
+exports.INVALID_DATA = 'Incorrect data during registration'
+exports.USER_NOT_FOUND = 'User not found'
+exports.AUTH_SUCCESS = 'Authentication success'
